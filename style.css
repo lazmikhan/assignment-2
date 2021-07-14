@@ -166,7 +166,9 @@ footer p{
             }
             
          .btton{
-             margin-left: 100px;
+             margin-left: 200px;
+             font-size: large;
+             
          }
             .players{
                 display: flex;
