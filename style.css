@@ -1,0 +1,207 @@
+body    {
+
+    font-family: 'Balsamiq Sans';
+    
+    width: 100%;
+}
+.banner{
+    display: flex;
+    background-color:  #2D25A0;
+    justify-content: space-between;
+
+}
+.heading h1{
+    display: flex;
+    align-items: center;
+    font-weight:700;
+    font-size: 64px;
+    height: 230px;
+width: 485px;
+left: 156px;
+top: 207px;
+border-radius: nullpx;
+
+
+   
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 50%;
+}
+.write{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+}
+.btton{
+    height: 44px;
+width: 168px;
+left: 156px;
+top: 464px;
+border-radius: 0px;
+padding: 10px;
+padding-left: 70px;
+background-color: brown;
+margin-right: 270px;
+
+}
+.btton a{
+    color: white;
+    text-decoration: none;
+}
+.btton:hover p{
+    color: rgba(255, 99, 71, 0.687);
+}
+
+.picture img{
+    height: 438px;
+width: 556.0103149414062px;
+left: 1299.01025390625px;
+top: 153px;
+border-radius: 0px;
+
+}
+
+.player img{
+    height: 256px;
+width: 300px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+
+
+}
+.players{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px 20px;
+    justify-items: center;
+    
+    
+
+   
+    
+}
+
+.player{
+    display: flex;
+     flex-direction: column; 
+    
+ 
+    height: 474px;
+width: 330px;
+left: 180px;
+top: 747px;
+border-radius: 0px;
+padding: 15px;
+margin-top: 20px;
+
+
+}
+.logo {
+   width: 100%;
+display: flex;
+
+    
+}
+
+.f-logo img{
+    width: 400px;
+    height: 150px;
+   
+    
+}
+
+
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.icon{
+    font-size: large;
+  width: 100px;
+  color: black;
+}
+.icon:hover{
+    color: rgba(192, 192, 192, 0.734);
+}
+footer p{
+    text-align: center;
+    color: grey;
+    
+    width: 100%;
+   
+    
+} 
+
+
+        @media (max-width: 700px) {
+            
+
+            .banner {
+                flex-direction: column;
+
+
+            }
+            .banner img{
+                margin-top: 100px;
+            }
+            .heading{
+                margin-left: 150px;
+            }
+         .btton{
+             margin-left: 100px;
+         }
+            .players{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+
+            }
+
+
+        }
+    .banner:hover img{
+        transform: scale(1.2) rotate(360deg);
+            transition: transform 2s;
+    }
+
+    .latest{
+    
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px 20px;
+        justify-items: center;
+        width: 100%;
+        
+        
+    
+       
+        
+    }
+    .latest img{
+        width: 100%;
+
+    }
+    .bonus h1{
+        text-align: center;
+        background-color:  rgba(0, 200, 255, 0.381);
+    }
+    .text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-image: radial-gradient(rgba(213, 231, 222, 0.66),skyblue);
+    }
+    .bonus2 h2{
+        text-align: center;
+    }
