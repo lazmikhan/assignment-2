@@ -147,14 +147,17 @@ footer p{
 
             .banner {
                 flex-direction: column;
+                width: 100%;
 
 
             }
             .banner img{
                 margin-top: 100px;
+                width: 90%;
             }
             .heading{
-                margin-left: 150px;
+                margin-left: 120px;
+
             }
          .btton{
              margin-left: 100px;
